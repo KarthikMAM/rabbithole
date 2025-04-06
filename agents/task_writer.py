@@ -28,8 +28,8 @@ fast = FastAgent(name="TaskWriterAgent")
 @fast.evaluator_optimizer(
     generator="task_assignment_generator",
     evaluator="task_assignment_evaluator",
-    max_refinements=5,
-    min_rating="EXCELLENT",
+    max_refinements=1,
+    min_rating="POOR",
     name="task_assignment_enhanced_generator",
 )
 @fast.agent(

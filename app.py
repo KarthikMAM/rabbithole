@@ -17,8 +17,6 @@ async def main():
 
     await implementation_details()
 
-    await project_plan()
-
     await task_writer()
 
     await task_assignment()

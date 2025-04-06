@@ -5,12 +5,11 @@
 {"type":"entity","entityType":"Person","name":"Eve","observations":["Product manager"]}
 {"type":"entity","entityType":"Person","name":"Frank","observations":["Data scientist"]}
 {"type":"entity","entityType":"Team","name":"Engineering Team","observations":["Consists of 6 people: Alice, Bob, Charlie, David, Eve, and Frank"]}
-{"type":"entity","name":"Create UI Skeleton Task","entityType":"Task","observations":["This is a task to create the barebones boiler plate for our awesome frontend project","Task defined in file: /Users/sysadmin/Desktop/projects/rabbithole-v2/data/files/tasks/create_ui_skeleton.md"]}
-{"type":"entity","name":"Task: Testing and Validation","entityType":"Task","observations":["ID: b3c9e5f8-2a4d-4c7f-9d31-8f6d12e47a5e","Tests both the two-file solution and single-file solution in Chrome browser","Verifies Hello World message displays correctly and console output works","Priority: Medium","Estimated Time: 45 minutes","Dependencies: HTML component, JavaScript component, and Single-file solution tasks"]}
-{"type":"entity","name":"Task: Documentation","entityType":"Task","observations":["ID: e7d14a93-6fb9-4c2e-8ac1-56d5fd27b846","Creates comprehensive documentation including README.md with usage instructions","Packages all files for delivery to the customer","Priority: Low","Estimated Time: 1 hour","Dependencies: All previous implementation and testing tasks"]}
+{"type":"entity","name":"Create Single-File HTML Solution","entityType":"Task","observations":["Create a standalone HTML file that includes embedded JavaScript to display 'Hello World' on the webpage","Estimated time: 45 minutes","Skills needed: HTML, JavaScript, Basic web development knowledge","Priority: Medium"]}
 {"type":"relation","from":"Alice","relationType":"is member of","to":"Engineering Team"}
 {"type":"relation","from":"Bob","relationType":"is member of","to":"Engineering Team"}
 {"type":"relation","from":"Charlie","relationType":"is member of","to":"Engineering Team"}
 {"type":"relation","from":"David","relationType":"is member of","to":"Engineering Team"}
 {"type":"relation","from":"Eve","relationType":"is member of","to":"Engineering Team"}
 {"type":"relation","from":"Frank","relationType":"is member of","to":"Engineering Team"}
+{"type":"relation","from":"Create Single-File HTML Solution","relationType":"is assigned to","to":"Bob"}

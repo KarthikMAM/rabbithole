@@ -14,6 +14,7 @@ fast = FastAgent(name="TaskAssignmentAgent")
     You will be using the memory tool to find out who is the best person to assign each task to and also to check if the person is free at the moment.
     """,
     servers=["filesystem", "memory"],
+    model="gpt-4o",
 )
 @fast.agent(name="task_assignment_evaluator")
 @fast.evaluator_optimizer(
